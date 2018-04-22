@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reversi</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Reversi.css">
+</head>
+<body>
+<div class="container">
+  <h1>REVERSI<span id="point"> </span></h1>
+  <div>
+    <p>
+      <span class="black">Player 1</span>
+      <span class="white">Player 2</span>      
+    </p>
+  </div>
+  
+    <div class = "canvas1">
+		<canvas id="blackCanvas" width="100" height="80" style="border:1px solid black"></canvas>
+		<span id="blackCount">2</span>
+	</div>
+	<div class ="canvas2">    
+		<span id="whiteCount">2</span>
+		<canvas id="whiteCanvas" width="100" height="80" style="border:1px solid black"></canvas>
+	</div>  
+  
+  
+    <div class = "container">      
+      <canvas onclick="game(event)" id="myCanvas" width="800" height="640" style="border:1px solid #000000;">
+    </canvas>
+      
+  </div>
+  <p class="rules">Having trouble? Click <a href="https://en.wikipedia.org/wiki/Reversi">here</a> to see the rules!</p>
+  
+  </div>
+  <script src="Reversi.js"></script>
+</body>
+  
+  
+
+</html>
