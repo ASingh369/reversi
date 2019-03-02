@@ -1,2 +1,2 @@
 # reversi
-Reversi Game (only PC)
+Reversi Game
